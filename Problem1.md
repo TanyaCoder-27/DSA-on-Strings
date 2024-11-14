@@ -1,9 +1,9 @@
-##Problem 1
+## Problem 1
 Encrypt the given string based on its length if the length is 5, then add 4 to its first character, 3 to its second character, 2 to its third character, 1 to fourth character and 0 to last character. Display resultant string. 
-Input: String 
-Output: Encrypted String
+Input: meowt
+Output: qhqxt
 
-##Java Code:
+## Java Code:
 
 ```
 import java.util.*;
@@ -33,7 +33,7 @@ class Main {
 
 
 ```
-##Explanation:
+## Explanation:
 Conversion to Character Array: The input string is converted to a character array.
 
 Encryption: Each character is incremented by a specified value.
@@ -41,3 +41,5 @@ Encryption: Each character is incremented by a specified value.
 String Conversion: The character array is converted back to a string using new String(ch).
 
 Edge Case Handling: If the input string length is not 5, it returns "Encryption not possible".
+
+
